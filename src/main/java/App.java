@@ -1,6 +1,4 @@
-import sun.text.resources.cldr.es.FormatData_es_419;
 
-import java.util.Date;
 import java.util.Scanner;
 
 public class App {
@@ -12,7 +10,7 @@ public class App {
         System.out.println("Enter the pattern of country ");
         String weather= input.nextLine();
         System.out.println("Enter date of the city for weather ");
-        int date = input.nextInt();
+        long date = input.nextLong();
 
     }
 }
