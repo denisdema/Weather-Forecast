@@ -23,3 +23,4 @@ public class City {
     @OneToMany(mappedBy = "city")
     private List<Weather> weatherList;
 }
+
